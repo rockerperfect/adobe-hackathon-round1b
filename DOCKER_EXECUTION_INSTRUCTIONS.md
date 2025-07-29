@@ -103,7 +103,7 @@ docker build --no-cache -t adobe-hackathon-pipeline .
 ### Performance Validation
 
 ```powershell
-# Check image size (should be ~2.5GB)
+# Check image size
 docker images adobe-hackathon-pipeline
 
 # Verify pre-warming worked (should see model loading logs)
